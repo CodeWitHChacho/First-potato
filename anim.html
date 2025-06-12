@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panna Music Centre - Samsung Service Center Eldoret</title>
+    <link rel="stylesheet" href="anim.css">
+    <link rel="function" hrem="anim.js">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Panna Music Centre</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-title">Panna Music Centre</h1>
+            <p class="animate-subtitle">Your Trusted Samsung Service Center in Eldoret</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+        <div class="hero-3d">
+            <canvas id="three-canvas"></canvas>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="service-cards">
+            <div class="card animate-card">
+                <h3>Device Repairs</h3>
+                <p>Authorized Samsung and Sony repairs with genuine parts.</p>
+            </div>
+            <div class="card animate-card">
+                <h3>Genuine Electronics</h3>
+                <p>Top-quality Samsung, Aeno, and Canyon products.</p>
+            </div>
+            <div class="card animate-card">
+                <h3>Accessories</h3>
+                <p>High-quality chargers, cables, and earbuds.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Us</h2>
+        <p class="animate-text">Panna Music Centre is your go-to tech partner in Eldoret. As an authorized Samsung service center, we provide top-notch repairs and genuine electronics. Quality, reliability, and customer satisfaction are at the heart of everything we do.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="animate-text">Visit us at Kenyatta Street, Eldoret, or reach out for support.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Panna Music Centre. All rights reserved.</p>
+        <p>P.O. Box 312, Kenyatta St., Eldoret 30100, Kenya</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

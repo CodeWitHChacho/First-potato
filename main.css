@@ -1,0 +1,58 @@
+
+body {
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+#home {
+  background-color: #f4f4f4;
+}
+
+#shop, #services, #team, #contact {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+button {border-radius: 33px;
+background: #4f4f4f;
+box-shadow:  20px 20px 24px #3c3c3c,
+             -20px -20px 24px #626262;}
